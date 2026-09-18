@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# Downloaded data (rebuilt automatically)
+data/cache/
+data/*.csv
+
+# Keep the trained model and results
+!models/*.keras
+!models/*.joblib
+!results/*
